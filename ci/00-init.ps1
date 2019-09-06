@@ -10,4 +10,4 @@ Write-Output '*** Pulling build images'
 
 Write-Output '*** Building test runner'
 
-& docker $config image build -t dockersamples/mta-dev-test-runner -f .\docker\test-runner\Dockerfile .
+& docker $config image build -t dockersamples/mta-dev-test-runner -f .\Dockerfile .
