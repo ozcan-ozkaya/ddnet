@@ -3,31 +3,31 @@ version: '3.2'
 services:
   
   signup-db:
-    image: dtrapp-dockeree-jjpo.uksouth.cloudapp.azure.com/ozcan/ddnet/mta-dev-signup-db:v1
+    image: dtrapp-dockeree-jjpo.uksouth.cloudapp.azure.com/ozcan/mta-dev-signup-db:v1
     build:
       context: ../
       dockerfile: ./docker/db/Dockerfile
 
   signup-app:
-    image: dtrapp-dockeree-jjpo.uksouth.cloudapp.azure.com/ozcan/ddnet/signup-app:v4
+    image: dtrapp-dockeree-jjpo.uksouth.cloudapp.azure.com/ozcan/signup-app:v4
     build:
       context: ../
       dockerfile: ./docker/web/Dockerfile
 
   signup-save-handler:
-    image: dtrapp-dockeree-jjpo.uksouth.cloudapp.azure.com/ozcan/ddnet/signup-save-handler:v1
+    image: dtrapp-dockeree-jjpo.uksouth.cloudapp.azure.com/ozcan/signup-save-handler:v1
     build:
       context: ../
       dockerfile: ./docker/save-handler/Dockerfile
 
   signup-index-handler:
-    image: dtrapp-dockeree-jjpo.uksouth.cloudapp.azure.com/ozcan/ddnet/signup-index-handler:v1
+    image: dtrapp-dockeree-jjpo.uksouth.cloudapp.azure.com/ozcan/signup-index-handler:v1
     build:
       context: ../
       dockerfile: ./docker/index-handler/Dockerfile
 
   signup-homepage:
-    image: dtrapp-dockeree-jjpo.uksouth.cloudapp.azure.com/ozcan/ddnet/signup-homepage:v1
+    image: dtrapp-dockeree-jjpo.uksouth.cloudapp.azure.com/ozcan/signup-homepage:v1
     build:
       context: ../
       dockerfile: ./docker/homepage/Dockerfile
