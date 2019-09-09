@@ -1,6 +1,6 @@
 Write-Output '*** Building E2E test image'
 
-& docker $config image build -t dockersamples/mta-dev-e2e-tests -f .\docker\e2e-tests\Dockerfile .
+& docker $config image build -t dtrapp-dockeree-jjpo.uksouth.cloudapp.azure.com/ozcan/ddnet/mta-dev-e2e-tests -f .\docker\e2e-tests\Dockerfile .
 
 Write-Output '*** Running E2E tests'
 

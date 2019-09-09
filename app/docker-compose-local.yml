@@ -3,7 +3,7 @@ version: '3.2'
 services:
   
   signup-db:
-    image: dockersamples/mta-dev-signup-db:v1
+    image: dtrapp-dockeree-jjpo.uksouth.cloudapp.azure.com/ozcan/ddnet/mta-dev-signup-db:v1
     networks:
       - app-net
   
