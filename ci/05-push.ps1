@@ -1,4 +1,4 @@
-Write-Output '**** Pushing Images'
+Write-Output '*** Pushing Images'
 
 $services = 'signup-app', 'signup-save-handler', 'signup-index-handler', 'signup-homepage'
 
