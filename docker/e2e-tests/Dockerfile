@@ -1,5 +1,5 @@
 # escape=`
-FROM mcr.microsoft.com/dotnet/framework/sdk:4.7.1-20190724-windowsservercore-ltsc2016 AS builder
+FROM mcr.microsoft.com/dotnet/framework/sdk:4.7.2-20190724-windowsservercore-ltsc2016 AS builder
 
 WORKDIR C:\src\SignUp.EndToEndTests
 COPY src\SignUp\SignUp.EndToEndTests\packages.config .
