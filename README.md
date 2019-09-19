@@ -1,4 +1,4 @@
-## Newsletter Sign Up - .NET 3.5
+### Newsletter Sign Up - .NET 3.5
 
 This is a branch of the [Newsletter Sign Up app](https://github.com/dockersamples/newsletter-signup) which uses a .NET 3.5 cut of the code. 
 
